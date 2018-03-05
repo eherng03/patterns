@@ -1,6 +1,6 @@
 package es.unileon.designpatterns;
 
-public class ProductHandler implements Handler{
+public class ProductHandler implements {
 
     private static int SERIAL_NUMBER = 0;
 
