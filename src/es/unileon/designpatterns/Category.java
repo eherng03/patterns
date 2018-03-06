@@ -21,7 +21,7 @@ public class Category implements Component{
         stringBuilder.append(this.toString());
 
         for(int i = 0; i < components.size(); i++){
-            stringBuilder.append(components.get(i).toString());
+            stringBuilder.append(components.get(i).getDescription());
         }
 
         return stringBuilder.toString();
